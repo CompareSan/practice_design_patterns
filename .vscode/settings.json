@@ -1,0 +1,23 @@
+{
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.pytestEnabled": true,
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "/Users/filippobuoncompagni/miniforge3/envs/design_pattern_env/bin/python",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.completeFunctionParens": true,
+    "editor.rulers": [
+        {
+            "column": 99,
+            "color": "#FFFFFF"
+        },
+        {
+            "column": 119,
+            "color": "#FFFF00"
+        }
+    ],
+    "mypy.runUsingActiveInterpreter": true,
+}
