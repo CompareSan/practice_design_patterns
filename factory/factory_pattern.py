@@ -34,7 +34,7 @@ class Logistic(ABC):
         pass
 
     def some_operation(self) -> str:
-        transport = self.create_transport()
+        transport = self.create_transport() 
         result = f"Creator: The same creator's code has just worked with {transport.deliver()}"
         return result
 
